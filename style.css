@@ -71,6 +71,11 @@ header a {
     color: black;
 }
 
+.section-inner p {
+    display: block;
+    font-size: 20px; /* Adjust the font size as needed */
+  }  
+
 /* Add everything below here */
 
 #hero {
