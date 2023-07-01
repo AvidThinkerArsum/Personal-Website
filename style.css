@@ -73,6 +73,40 @@ section {
     /* Existing styles for the "thoughts" section */
 }
 
+
+#about .profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#about .about-img {
+    width: 400px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+#about .about-text {
+    margin-right: 20px;
+    flex: 1;
+}
+
+#about h2 {
+    font-size: 3em;
+}
+
+#thoughts {
+    display: flex;
+    align-items: top/left;
+    align-items: top;
+    justify-content: flex-start;
+    text-align: left
+    /* Existing styles for the "thoughts" section */
+}
+
+
+
 #thoughts h2 {
     margin-top: 20px;
     margin-left: 80px;
