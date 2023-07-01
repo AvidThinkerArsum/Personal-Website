@@ -42,20 +42,57 @@ section {
     background-attachment: fixed; /* Add this line */
 }
 
-#hero .profile-img {
-    width: 320px;
-    border-radius: 50%; /* Add this line */
+#hero .profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
+#hero .profile-img {
+    width: 400px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+#hero .profile-text {
+    margin-right: 20px;
+    flex: 1;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+#thoughts {
+    display: flex;
+    align-items: top/left;
+    align-items: top;
+    justify-content: flex-start;
+    text-align: left
+    /* Existing styles for the "thoughts" section */
+}
+
+#thoughts h2 {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 2.5em;
+}
+
+.book-list {
+    text-align: left
+}
+
+.book-list p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: left
+}
+
 
 footer {
     text-align: center;
     padding: 50px;
-}
-
-/* Add everything below here */
-
-#hero h1 {
-    font-size: 3em;
 }
 
 section h2 {
@@ -73,10 +110,9 @@ header a {
 
 .section-inner p {
     display: block;
-    font-size: 20px; /* Adjust the font size as needed */
+    font-size: 20px;
   }  
 
-/* Add everything below here */
 
 #hero {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
