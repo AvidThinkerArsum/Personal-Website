@@ -64,16 +64,6 @@ section {
     font-size: 3em;
 }
 
-#thoughts {
-    display: flex;
-    align-items: top/left;
-    align-items: top;
-    justify-content: flex-start;
-    text-align: left
-    /* Existing styles for the "thoughts" section */
-}
-
-
 #about .profile {
     display: flex;
     align-items: center;
@@ -100,31 +90,37 @@ section {
 }
 
 #thoughts {
-    display: flex;
-    align-items: top/left;
-    align-items: top;
-    justify-content: flex-start;
-    text-align: left
-    /* Existing styles for the "thoughts" section */
+    text-align: left;
 }
 
-
+#thoughts .section-inner {
+    font-size: 16px;
+    line-height: 1.5;
+}
 
 #thoughts h2 {
-    margin-top: 20px;
-    margin-left: 80px;
-    font-size: 2.5em;
-}
-
-.book-list {
-    text-align: left
-}
-
-.book-list p {
-    font-size: 1.2em;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15px;
     margin-bottom: 10px;
-    text-align: left
 }
+
+#thoughts ul {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+#thoughts li {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#thoughts li:before {
+    margin-right: 5px;
+}
+
+
+
 
 
 footer {
